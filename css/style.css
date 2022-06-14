@@ -1,0 +1,332 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------------
+                                                Default Values
+------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------
+            Fonts
+----------------------------
+Josephin sans - h4, h5, h6, p
+Lemonanda - special text
+Crimson Text - h1, h2, h3
+Rowdies
+
+-----------------------------
+            Color
+-----------------------------
+     #2B4162
+     #DB504A
+     #4F6D7A
+     #A4A9AD
+     #F15152
+                                                #292F36 - Gunmetal (black)
+                                                #022B3A - Gunmetal (darkblue)
+                                                #437c90 - Tealblue
+                                                #1F7A8C - Metallic seaweed
+                                                #A52A2A - brown
+                                                #E42535 - Rose Madder
+                                                #FFFFFF - white
+                                                #000000 - black
+                                                #003049 - Prussian blue
+                                                #1B1C22 - Raisin Black
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------------------------
+                                    DEPNITY
+-------------------------------------------------------------------------------------------------*/
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans';
+    background-color: #E7B5B1;
+}
+body h3{
+    font-family: 'Lemonada';
+    
+    font-size: 48px;
+}
+body h4{
+    font-family: 'Josefin Sans';
+    color: aliceblue;
+}
+
+
+/*------------------------------------------------------------------------------------------------------
+                                               Header
+-------------------------------------------------------------------------------------------------------*/
+
+#header{
+    background-color: #2B4162;
+    height: 220px;
+}
+#logo{
+    width: 200px;
+    margin: 5% 0;
+    position: relative;
+    right: 70%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border: 2px dotted white;
+    
+}
+.header-content{
+    float: left;
+}
+#header-heading h3{
+    margin-top: 8%;
+    text-align: center;
+    color: #FFFFFF;
+}
+#header-heading h4{
+    
+    text-align: center;
+    font-size: 18px;
+}
+.emph{
+    color: #E42535;
+    text-shadow: 1px 1px  white;
+}
+#login-area{
+    width: 36%;
+    height: 200px;
+    background-color: azure;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    left: 78%;
+    border-radius: 10px;
+}
+#login-area h5{
+    color: #2B4162;
+    text-align: center;
+    margin-top: 2px;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;    
+}
+#login-form{
+    margin: 0 25%;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    
+}
+#login-form a{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    color: #022B3A;
+    font-weight: 500;
+}
+#login-form input{
+    padding: 6px 16px;
+    margin: 1%;
+    border-radius: 6px;
+    border: 1px solid blue;
+    
+}
+.profile_details h6{
+    margin: 10%;
+}
+
+
+/*------------------------------------------------------------------------------------------------------
+                                            Content Wrapper
+-------------------------------------------------------------------------------------------------------*/
+#content-wrapper{
+    width: 100%;
+    height: 100%;
+}
+#left-area{
+    width: 20%;
+    float: left;
+    background-color:#C1DEEC ;
+    height: auto;
+    float: left;
+    margin: 6px;
+    padding-bottom: 900px;
+    border-radius: 3px;
+    
+
+}
+#mid-area{
+    width: 78%;
+    height: 100%;
+    margin: 6px 3px 6px 0px;
+    background-color: #E7B5B1;
+    border-radius: 3px;
+    float: right;    
+    
+}
+#mid-area h2{
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    font-weight: 700;
+    font-size: 44px;
+    font-style: italic;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    color: #fff;
+    text-shadow: 2px 1px 3px seagreen;
+    
+}
+#title{
+    background-color: #2B4162;
+    margin: 1% 0;
+    border: 1px dashed black;
+    border-radius: 6px;
+}
+.threads{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 4px;
+    margin: 10px;
+}
+.threads h4{
+    color: #022B3A;
+}
+.counter{
+    font-size: 18px;
+    padding:  5px;
+    vertical-align: middle;
+    
+    border-radius: 4px;
+    margin: 1px;
+}
+i{
+    color: #022B3A ;
+    opacity: 0.9;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+                                        Left area content
+----------------------------------------------------------------------------------------------------------------------------*/
+#links{
+    margin-top: 100px;
+}
+#links ul li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    padding: 4px 0;
+    font-size: 20px;
+}
+#links a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#links a:hover{
+        color: #E42535;
+    }
+#links li:hover{
+    background-color: #4F6D7A;
+    
+}
+#links li{
+    background-color: #1F7A8C;
+    border: 1px solid black;
+    margin-right: 6px;
+    border-radius: 6px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------
+                                        Sign up form
+---------------------------------------------------------------------------------------------------------------------*/
+
+
+a{
+    
+}
+/*---------------------------------------------------
+                Contact Us
+----------------------------------------------------*/
+#contact td{
+    padding: 5px 35px;
+    
+}
+#contact input{
+    padding: 6px 35px;
+    border-radius: 5px;
+    border: none;
+}
+#contact textarea{
+    padding: 6px 35px;
+    border-radius: 5px;
+    border: none;
+    width: 230%; height: 120px;
+}
+#em{
+    padding: 10px;
+    margin-left: 20px;
+}
+#call_back_form_small{
+    display: none;
+}
+#registration{
+    background-color: #2B4162 ;
+    padding: 5% 6%;
+    color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 10px 15px 15px #437c90;
+}
+/*===================================================
+                       Footer
+===================================================*/   
+#footer-bottom{
+    background-color: #003049;
+    padding: 20px 0;
+    margin-top: 10%;
+
+
+}
+#footer-copyrights p{
+    margin: 0;
+    color: #fff;
+}
+#footer-menu{
+    float: right;
+    color: #fff;
+}
+#footer-menu ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+#footer-menu ul li{
+    display: inline-block; 
+    color: aliceblue;
+}
+#footer-menu ul a {
+    display: inline-block; 
+    color: aliceblue;
+    font-weight: 700;
+    text-shadow: 2px black;
+    text-decoration: none;
+    
+}
+#footer-menu ul a:hover {
+    
+    color: #F39B6D;
+    
+}
+
+    
+
