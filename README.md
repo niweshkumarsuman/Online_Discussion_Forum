@@ -6,7 +6,7 @@ You can have a look into it and suggest some changes to make it better.
 
 ‘DEPNITY’ in itself is an acronym which is derived from the three words, ‘DEvelopment', ‘Peace’ and ‘uNITY’.
 
-### Developer: Mohit Kumar Singh
+### Developer: Niwesh Kumar Suman
 
 #### Preview:
      
